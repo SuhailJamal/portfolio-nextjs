@@ -7,14 +7,14 @@ const HeroImage = ()  => {
 
     return(
         <>
-          <Image
+          {/* <Image
           src={logo}
           alt="logo"
           loading="eager"
           priority
-          height={1000}
-          width={1000}
-        />
+          height={1200}
+          width={1200}
+        /> */}
         </>
     )
 }

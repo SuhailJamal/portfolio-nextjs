@@ -7,21 +7,14 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 const skillPage = () => {
   const programmingLanguages = [
     {
-      name: "HTML5",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    },
-    {
-      name: "CSS3",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    },
-    {
       name: "JavaScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
-      name: "TypeScript",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      name: "C",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
     },
+
     {
       name: "C++",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
@@ -31,12 +24,24 @@ const skillPage = () => {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     },
     {
-      name: "Java",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      name: "R",
+      icon: "https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg",
+    },
+    {
+      name: "PHP",
+      icon: "https://www.svgrepo.com/show/452088/php.svg",
     },
   ];
 
   const frameworks = [
+    {
+      name: "HTML5",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    },
+    {
+      name: "CSS3",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    },
     {
       name: "React",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -45,25 +50,18 @@ const skillPage = () => {
       name: "Next.js",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     },
-    {
-      name: "Vue.js",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-    },
-    {
-      name: "Svelte",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-    },
+
     {
       name: "Tailwind CSS",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
     },
     {
-      name: "Bootstrap",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      name: "Node.js",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     },
     {
-      name: "Material UI",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      name: "Express.js",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     },
   ];
 
@@ -80,21 +78,22 @@ const skillPage = () => {
       name: "VS Code",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
     },
-    {
-      name: "Docker",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-    },
-    {
-      name: "Firebase",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-    },
+
     {
       name: "MongoDB",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     },
     {
-      name: "PostgreSQL",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      name: "MySQL",
+      icon: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+    },
+    {
+      name: "Tableau",
+      icon: "https://www.svgrepo.com/show/354428/tableau-icon.svg",
+    },
+    {
+      name: "Jupyter Notebook",
+      icon: "https://www.svgrepo.com/show/373718/jupyter.svg",
     },
   ];
 
@@ -109,10 +108,7 @@ const skillPage = () => {
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            Currently i am a fresher and i have a solid understand of HTML5,
-            CSS3, JS, TS and React, including responsive design principles. I
-            specialize in building web applications and sites using Javascript,
-            Typescript, React, Nextjs & Node.
+          I am a final-year B.Sc. IT student with expertise in full-stack development (React, Next.js, Node.js, Express.js) and data science (Python, R, Tableau). I build scalable web applications and leverage machine learning for data-driven insights, combining efficient design with functionality.
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">
@@ -125,7 +121,7 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.32}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Framework/Libraries
+            Framework/Libraries (Frontend & Backend)
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={frameworks} />

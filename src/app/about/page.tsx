@@ -6,10 +6,9 @@ import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
   const items = [
     { hobby: "Coding" },
-    { hobby: "Playing Games" },
-    { hobby: "Watching Anime" },
-    { hobby: "Tech Blog Writing" },
-    { hobby: "Creating Cool Projects" },
+    { hobby: "Reading Books" },
+    { hobby: "Creating Projects" },
+    { hobby: "Learning new technologies" },
   ];
 
   return (
@@ -20,19 +19,11 @@ const page = () => {
         About me
       </Badge>
       <div className="flex flex-col gap-5">
-        <Heading>
-          Software Engineer And Web <br /> Developer, Based In India.
-        </Heading>
+        <Heading>Software Engineer And Data Science Student</Heading>
 
         <FramerWrapper y={0} x={100}>
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
-            India. I&apos;m passionate about crafting web projects and
-            contributing to open-source communities. I specialize in modern
-            JavaScript frameworks and responsive CSS design, focusing on
-            creating pixel-perfect, user-friendly interfaces. With strong
-            attention to detail and efficient delivery, I build seamless web
-            experiences that combine functionality with elegant design.
+          I am a Full Stack Web Developer from India, passionate about crafting web projects and continuously learning new technologies. I specialize in modern JavaScript frameworks, responsive CSS design, and user-friendly interfaces. In addition to web development, I have a strong background in Data Science, with expertise in Python, Tableau, and R, leveraging data analytics to drive insights and improve decision-making. I also have hands-on experience in IoT, integrating hardware and software solutions to develop smart, connected systems. With a keen attention to detail and a focus on efficient delivery, I aim to create seamless web experiences that combine functionality with elegant design, incorporating AI-driven and IoT-based solutions where applicable.
           </p>
         </FramerWrapper>
       </div>

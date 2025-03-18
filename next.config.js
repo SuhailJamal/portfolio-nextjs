@@ -1,18 +1,23 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental:{
-        serverComponentsExternalPackages: [
-            '@react-email/render',
-        ],
-        // images:{
-        //     remotePatterns:[
-        //         {
-        //             protocol: 'https',
-        //             hostname: 'cdn.jsdelivr.net',
-        //         }
-        //     ]
-        // }
-    }
-}
+    serverExternalPackages: ["some-package"], // ✅ Move it out of `experimental`
 
-module.exports = nextConfig
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "cdn.jsdelivr.net",
+            },
+            {
+                protocol : "https",
+                hostname : "uxwing.com"
+            }
+        ],
+    },
+
+    experimental: {
+        // Other experimental options can remain here if needed
+    },
+};
+
+module.exports = nextConfig;

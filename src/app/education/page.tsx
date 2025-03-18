@@ -22,7 +22,7 @@ const educationPage = () => {
             delay={0.35}
             className="w-1/4 font-rubik flex items-center justify-evenly text-lg max-sm:text-base "
           >
-            July 2023 - 2026
+            August 2022 - 2025
           </FramerWrapper>
           <FramerWrapper
             y={0}
@@ -31,15 +31,23 @@ const educationPage = () => {
             className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point "
           >
             <div className="text-2xl font-rubik max-sm:text-xl">
-              Bachelor of Computer Application, <br /> Ranchi University
-              Jharkhand
+              Bachelor of Science Information Technology, <br /> Lovely
+              Professional University Phagwara, Punjab
             </div>
             <p className=" font-poppins text-base w-full text-primary  max-sm:text-xs">
-              I am currently Studying Bachelor of Computer Application form
-              Doranda College Ranchi a Goverment College of Ranchi. The program
-              has provided me with a well-rounded education, covering both
-              theoretical foundations and practical applications of computer
-              science.
+              I am currently pursuing a Bachelor of Science in Information
+              Technology with a specialization in Data Science from Lovely
+              Professional University. The program has provided me with a
+              well-rounded education, covering both theoretical foundations and
+              practical applications of computer science. While my academic
+              focus has been on Data Science, I have also independently learned
+              React, Next.js, Node.js, and Express.js, allowing me to build
+              scalable full-stack applications. Additionally, I have hands-on
+              experience in IoT, having worked on projects that integrate
+              hardware and software solutions. My expertise spans full-stack web
+              development, data science, and IoT, enabling me to build
+              data-driven applications, develop machine learning models, and
+              create intelligent, connected systems.
             </p>
           </FramerWrapper>
         </div>
