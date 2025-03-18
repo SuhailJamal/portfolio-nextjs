@@ -14,7 +14,7 @@ const page = () => {
   return (
     // ABOUT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-      <Badge variant="secondary" className="gap-1.5 py-1 ">
+      <Badge variant="secondary" className="gap-1.5 py-1 mt-10">
         <User2 className="h-4 w-4" />
         About me
       </Badge>
@@ -22,8 +22,8 @@ const page = () => {
         <Heading>Software Engineer And Data Science Student</Heading>
 
         <FramerWrapper y={0} x={100}>
-          <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
-          I am a Full Stack Web Developer from India, passionate about crafting web projects and continuously learning new technologies. I specialize in modern JavaScript frameworks, responsive CSS design, and user-friendly interfaces. In addition to web development, I have a strong background in Data Science, with expertise in Python, Tableau, and R, leveraging data analytics to drive insights and improve decision-making. I also have hands-on experience in IoT, integrating hardware and software solutions to develop smart, connected systems. With a keen attention to detail and a focus on efficient delivery, I aim to create seamless web experiences that combine functionality with elegant design, incorporating AI-driven and IoT-based solutions where applicable.
+          <p className=" font-poppins text-xl w-full text-primary max-sm:text-xs ">
+          A Full Stack Web Developer from India, I craft web projects using modern JavaScript frameworks and responsive design, while leveraging my Data Science expertise (Python, Tableau, R) for data-driven insights. I also integrate IoT solutions, aiming to build seamless, functional, and elegant web experiences with AI and connected systems.
           </p>
         </FramerWrapper>
       </div>
@@ -39,7 +39,7 @@ const page = () => {
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
         </h1>
-        <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
+        <div className="w-full h-fit p-2 flex flex-row justify-between  md:gap-7 max-lg:flex-col">
           {items.map((val, indx) => {
             return (
               <div

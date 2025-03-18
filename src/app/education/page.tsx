@@ -7,7 +7,7 @@ const educationPage = () => {
   return (
     // ABOUT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-      <Badge variant="secondary" className="gap-1.5 py-1 ">
+      <Badge variant="secondary" className="gap-1.5 py-1 md:mt-0 mt-5">
         <Briefcase className="h-4 w-4" />
         Education
       </Badge>
@@ -30,12 +30,12 @@ const educationPage = () => {
             delay={0.35}
             className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point "
           >
-            <div className="text-2xl font-rubik max-sm:text-xl">
+            <div className="text-2xl font-rubik max-sm:text-sm">
               Bachelor of Science Information Technology, <br /> Lovely
               Professional University Phagwara, Punjab
             </div>
             <p className=" font-poppins text-base w-full text-primary  max-sm:text-xs">
-              I am currently pursuing a Bachelor of Science in Information
+              I am currently pursuing Bachelor of Science in Information
               Technology with a specialization in Data Science from Lovely
               Professional University. The program has provided me with a
               well-rounded education, covering both theoretical foundations and

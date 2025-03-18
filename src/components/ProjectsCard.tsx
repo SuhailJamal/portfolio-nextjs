@@ -32,26 +32,26 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
     >
       <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
         <CardHeader className="pb-2">
-          <CardTitle className="text-xl font-bold text-primary">{value.title}</CardTitle>
+          <CardTitle className="md:text-xl font-bold text-sm text-primary">{value.title}</CardTitle>
         </CardHeader>
         
         <CardContent className="flex-grow flex flex-col gap-4">
-          <p className="text-sm text-muted-foreground leading-relaxed">{value.description}</p>
+          <p className="md:text-sm text-xs text-muted-foreground leading-relaxed">{value.description}</p>
           
           <div className="flex flex-wrap gap-2">
             {value.tags.map((tag: string, index: number) => {
               const tagStyles = {
-                'Nextjs': 'bg-teal-100 text-teal-800',
-                'Freelancing': 'bg-yellow-100 text-yellow-800',
-                'Shadcn Ui': 'bg-blue-100 text-blue-800',
-                'Typescript': 'bg-red-100 text-red-800',
-                'MySQL': 'bg-orange-100 text-orange-800',
-                'Zustand': 'bg-purple-100 text-purple-800',
-                'Supabase': 'bg-emerald-100 text-emerald-800',
-                'Npx': 'bg-indigo-100 text-indigo-800',
-                'Library': 'bg-pink-100 text-pink-800',
-                'Zod': 'bg-cyan-100 text-cyan-800',
-                'React Hook Form': 'bg-violet-100 text-violet-800'
+                'Next.js': 'bg-teal-100 text-teal-800',
+                'Prisma': 'bg-yellow-100 text-yellow-800',
+                'MongoDB': 'bg-blue-100 text-blue-800',
+                'Express.js': 'bg-red-100 text-red-800',
+                'React.js': 'bg-orange-100 text-orange-800',
+                'Node.js': 'bg-purple-100 text-purple-800',
+                'Python': 'bg-emerald-100 text-emerald-800',
+                'Scikit-Learn': 'bg-indigo-100 text-indigo-800',
+                'Regression': 'bg-pink-100 text-pink-800',
+                'Data Science': 'bg-cyan-100 text-cyan-800',
+                'Tailwind CSS': 'bg-violet-100 text-violet-800'
               }[tag] || 'bg-gray-100 text-gray-800';
 
               return (

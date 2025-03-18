@@ -99,39 +99,39 @@ const skillPage = () => {
 
   return (
     // SKILLS PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-      <Badge variant="secondary" className="gap-1.5 py-1 ">
+    <div className="h-full w-full relative flex flex-col items-start gap-5 md:overflow-hidden overflow-auto">
+      <Badge variant="secondary" className="gap-1.5 py-1 md:mt-0 mt-5">
         <LightbulbIcon className="w-4 h-4" />
         My Skills
       </Badge>
       <div className="flex flex-col gap-3">
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
-          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
+          <p className="font-poppins text-xl w-full text-primary max-sm:text-xs">
           I am a final-year B.Sc. IT student with expertise in full-stack development (React, Next.js, Node.js, Express.js) and data science (Python, R, Tableau). I build scalable web applications and leverage machine learning for data-driven insights, combining efficient design with functionality.
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">
-          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-sm mb-4">
             Programming Languages
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-5 md:gap-4">
             <SkillsFooter items={programmingLanguages} />
           </div>
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.32}>
-          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-sm mb-4">
             Framework/Libraries (Frontend & Backend)
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-5 md:gap-4">
             <SkillsFooter items={frameworks} />
           </div>
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.34}>
-          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-sm mb-4">
             Tools & Technologies
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-5 md:gap-4 ">
             <SkillsFooter items={tools} />
           </div>
         </FramerWrapper>

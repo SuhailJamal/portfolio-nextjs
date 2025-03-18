@@ -81,7 +81,7 @@
 .name_underline::after{
   content: "";
   display: block;
-  width: 37rem;
+  width: 10rem;
   height: .3rem;
   background-color: hsl(var(--primary-sky));
 }
